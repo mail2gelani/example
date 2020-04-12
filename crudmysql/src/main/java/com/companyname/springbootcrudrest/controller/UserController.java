@@ -31,6 +31,11 @@ public class UserController {
 	
 	@Autowired
 	private UserRepository userRepository;
+	
+	@GetMapping("/hello")
+	public String welcomeUser(){		
+		return "Assalammu Aleikum";		
+	}
 
 	
 	@GetMapping("/users")
