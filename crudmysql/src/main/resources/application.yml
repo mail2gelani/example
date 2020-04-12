@@ -1,6 +1,6 @@
 spring:
   application:
-    name: CrudExample
+    name: CrudExampledev4
 
   datasource:
     url: jdbc:mysql://${database_hostname}:${database_port}/${configuration_database_name}
